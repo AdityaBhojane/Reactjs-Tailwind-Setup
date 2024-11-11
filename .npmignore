@@ -1,0 +1,5 @@
+node_modules          # Not needed in the package as users will install their own dependencies
+package-lock.json     # Specific to your local environment; users will generate their own
+.vscode/              # Editor configuration files, if any
+*.log                 # Log files from npm or your development process
+dist                  # If Vite creates a `dist` folder on build, exclude it; users will create their own builds
